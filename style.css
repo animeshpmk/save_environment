@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+html,body{
+    width:100%;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+    position: relative;
+}
+#nav-left{
+    display: flex;
+    gap:2vw;
+}
+#navbar a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#nav-mid a{
+    text-decoration: none;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 19px;
+    font-weight: 400;
+}
+#original{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin-top:15vw;
+    padding:0vw 10vw;
+    margin-bottom: 12vw;
+}
+#firstphase{
+    width:10vw;
+   
+}
+#firstphase h2{
+  
+    letter-spacing: 1px;
+    font-size: 35px;
+    
+}
+
+#firstphase p{
+    font-weight: 700;
+    font-size: 12px;
+    margin:10px 0;
+    opacity: 0.5;
+}
+#firstphase #imageenvironment2{
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height:15vw;
+}
+#imageenvironment2 img{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:140%;
+    height:140%;
+    object-fit: cover;
+}
+#mainphase{
+    position:relative;
+    min-height: 42vw;
+    width:30vw;
+}
+#imageenvironment1{
+    width:fit-content;
+    height:fit;
+}
+#mainphase img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+#mainphase p{
+    font-size: 1.3vw;
+    width:90%;
+    
+}
+#mainphase #headings{
+    position: absolute;
+    top:-22%;
+    left:-20%;
+}
+#mainphase h1{
+    line-height:1;
+    font-size: 6vw;
+    font-weight: 400;
+    
+}
+#r3{
+    height: 40vw;
+    width:90vw;
+    margin-top: 10vw;
+    margin-bottom:10vw;
+    margin-left:5vw;
+    margin-right:5vw;
+    padding:2vw 10vw;
+
+}
+#r3 #square{
+    height:100%;
+    width:100%;
+    background-color:rgb(194, 247, 205);
+    border-radius: 5px;
+    
+
+
+
+}
+#square{
+    box-shadow: 0 0 20px rgba(4, 55, 4, 0.5);
+    
+    position: relative;
+    z-index: 1;
+}
+#motive{
+    font-size: 6vw;
+    position: absolute;
+    left:-6vw;
+    top:-5.6vw;
+    font-weight: 500;
+    color:rgb(2, 31, 2)
+}
+#r3images{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#reuse{
+    position: absolute;
+    left:-8vw;
+    top:-3vw;
+    z-index: 999;
+}
+#reduce{
+    position: absolute;
+    left:20vw;
+    top:-11vw;
+    z-index: 999;
+}
+#reduce p{
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+    opacity: .8;
+    left:9vw;
+}
+#recycle{
+    position: absolute;
+    left:40vw;
+    top:2vw;
+    z-index: 999;
+
+}
+#recycle p{
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 600;
+    letter-spacing: 2.8px;
+    opacity: .8;
+    left:14vw;
+    top:3vw;
+}
+#leftright{
+    position: absolute;
+    top:140vw;
+}
+#project1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap:30px;
+    margin-bottom: 2vw;
+    font-size: 2vw;
+}
+#project1 img{
+    height:25vw;
+    object-fit: cover;
+}
+#project2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap:30px;
+    font-size: 2vw;
+}
+#project2 img{
+    height:23vw;
+    width:75vw;
+    object-fit:contain;
+}
+
